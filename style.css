@@ -1,0 +1,82 @@
+html {
+	min-width: 1024px;
+	max-width: 1920px;
+	margin: auto;
+}
+table {
+    background-color: #eeefff;
+    width: 100%;
+	text-align: center;
+}
+#header {
+    text-align: center;
+    background-image: url(http://www.freewebheaders.com/wordpress/wp-content/gallery/trains/old-steam-train-header.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+#menu {
+    width: 200px;   
+	height: 100%;
+    overflow: auto;
+    background-color: #eff5cd;
+	text-align: left;
+}
+li {
+    list-style-type: none;
+    border: 1px solid green;
+    font-family: serif;
+    font-size: 24px;
+    color: crimson;
+    margin-bottom: 10px;
+}
+td {
+	border: 1px solid;
+	margin: 0;
+	padding: 0;
+	
+}
+.tblock {
+    height: 120px;
+    margin: 10px;
+    border: 1px dotted yellow;
+    background: #9cb79c;	
+	display: table-cell;
+	vertical-align: middle;
+	overflow: hidden;
+	position: relative;
+}
+.container {
+	display: inline-block;
+}
+.wide {
+	width: 33%;
+}
+.fixed {
+	width: 250px;
+}
+.stretch {
+	width: 1%;
+}
+.lined:after {
+	content: '';
+	border: 3px solid green;
+	display: block;
+	position: absolute;
+	bottom: 5px;
+	left: 0px;
+	right: 0px;
+}
+.corner:after {
+	content: '';
+	border: 3px solid green;
+	display: block;
+	position: absolute;
+	bottom: 190px;
+	left: 0px;
+	right: -50px;
+
+	transform: rotate(45deg);
+	-o-transform: rotate(45deg);
+	-moz-transform: rotate(45deg);
+	-webkit-transform: rotate(45deg);
+}
